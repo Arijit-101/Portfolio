@@ -26,7 +26,7 @@ function Contact() {
 					className='text-[#f9826c] ml-5 hover:border-b-2 hover:border-b-[#f9826c]'
 					href='https://arijit-101.github.io/Portfolio/'
 				>
-					arijit-101.github.io/Portfolio/
+					arijit-101.github.io/Portfolio
 				</a>
 				<span className='text-[#E1E4E8] ml-4'>;</span>
 			</div>
