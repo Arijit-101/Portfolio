@@ -11,7 +11,7 @@ function Bottombar() {
 	return (
 		<div className='flex font-sans text-sm bg-[#191919cc] h-[25px] text-[#fff] p-0.5  '>
 			<div className='items-left flex '>
-				<a className='flex hover:bg-[#5f5f64] ml-1' href=''>
+				<a className='flex hover:bg-[#5f5f64] ml-1' href='https://github.com/Arijit-101/Portfolio'>
 					<ShareIcon className='h-[18px] ml-1 mr-2 my-[2px] -rotate-45' />
 					<p className='pb-3 mr-4'>main </p>
 				</a>
