@@ -31,7 +31,7 @@ function Explorer() {
 						<div className='flex py-2 px-4'>
 							<img
 								className='pr-1'
-								src='/react_icon.svg'
+								src='./react_icon.svg'
 								alt='home.jsx'
 								height={18}
 								width={18}
@@ -44,7 +44,7 @@ function Explorer() {
 						<div className='flex py-2 px-4'>
 							<img
 								className='pr-1'
-								src='/html_icon.svg'
+								src='./html_icon.svg'
 								alt='about.html'
 								height={18}
 								width={18}
@@ -59,7 +59,7 @@ function Explorer() {
 						<div className='flex py-2 px-4'>
 							<img
 								className='pr-1'
-								src='/css_icon.svg'
+								src='./css_icon.svg'
 								alt='contact.css'
 								height={18}
 								width={18}
@@ -74,7 +74,7 @@ function Explorer() {
 						<div className='flex py-2 px-4'>
 							<img
 								className='pr-1'
-								src='/js_icon.svg'
+								src='./js_icon.svg'
 								alt='projects.js'
 								height={18}
 								width={18}
@@ -89,7 +89,7 @@ function Explorer() {
 						<div className='flex py-2 px-4'>
 							<img
 								className='pr-1'
-								src='/markdown_icon.svg'
+								src='./markdown_icon.svg'
 								alt='techstack.json'
 								height={18}
 								width={18}

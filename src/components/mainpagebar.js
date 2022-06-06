@@ -10,35 +10,35 @@ function Mainpagebar() {
 	return (
 		<div className='flex items-center border border-[#303941] font-sans curson-pointer text-[0.9rem]  bg-[#313c43] text-[#ececec] '>
 			<Link to='/Portfolio'>
-				<div className={`${styles} ${location.pathname === "/" && active}`}>
-					<img src='/react_icon.svg' alt='home.jsx' height={18} width={18} />
+				<div className={`${styles} ${location.pathname === "/Portfolio" && active}`}>
+					<img src='./react_icon.svg' alt='home.jsx' height={18} width={18} />
 					<p className='truncate'>home.jsx</p>
 				</div>
 			</Link>
 
 			<Link to='/Portfolio/about'>
 				<div
-					className={`${styles} ${location.pathname === "/about" && active}`}
+					className={`${styles} ${location.pathname === "/Portfolio/about" && active}`}
 				>
-					<img src='/html_icon.svg' alt='about.html' height={18} width={18} />
+					<img src='./html_icon.svg' alt='about.html' height={18} width={18} />
 					<p className='truncate'>about.html</p>
 				</div>
 			</Link>
 
 			<Link to='/Portfolio/contact'>
 				<div
-					className={`${styles} ${location.pathname === "/contact" && active}`}
+					className={`${styles} ${location.pathname === "/Portfolio/contact" && active}`}
 				>
-					<img src='/css_icon.svg' alt='contact.css' height={18} width={18} />
+					<img src='./css_icon.svg' alt='contact.css' height={18} width={18} />
 					<p className='truncate'>contact.css</p>
 				</div>
 			</Link>
 
 			<Link to='/Portfolio/projects'>
 				<div
-					className={`${styles} ${location.pathname === "/projects" && active}`}
+					className={`${styles} ${location.pathname === "/Portfolio/projects" && active}`}
 				>
-					<img src='/js_icon.svg' alt='projects.js' height={18} width={18} />
+					<img src='./js_icon.svg' alt='projects.js' height={18} width={18} />
 					<p className='truncate'>projects.js</p>
 				</div>
 			</Link>
@@ -46,11 +46,11 @@ function Mainpagebar() {
 			<Link to='/Portfolio/techstack'>
 				<div
 					className={`${styles} ${
-						location.pathname === "/techstack" && active
+						location.pathname === "/Portfolio/techstack" && active
 					}`}
 				>
 					<img
-						src='/markdown_icon.svg'
+						src='./markdown_icon.svg'
 						alt='github.md'
 						height={18}
 						width={18}

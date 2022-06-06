@@ -45,7 +45,7 @@ function Projects() {
 					</div>
 
 					<div class='max-w-sm rounded overflow-hidden shadow-lg m-4'>
-						<a href='https://arijit-101.github.io/Vscode-like-Portfolio/'>
+						<a href='https://arijit-101.github.io/Portfolio/'>
 							<img
 								className='w-full  border-8 border-red-400'
 								src='portfolio.png'

@@ -19,15 +19,16 @@ function Purenavbar() {
 	return (
 		<div className='h-[calc(100vh-30px-25px)] text-white w-full md:w-1/4 text-center items-center justify-between bg-[#161a1d] md:bg-[#24292e]  space-y-5 pt-5  relative'>
 			<div className='absolute top-2 text-center items-center justify-between'>
+				
 				<Link to='/Portfolio'>
-					<div className={`${styles} ${location.pathname === "/" && active}`}>
+					<div className={`${styles} ${location.pathname === "/Portfolio" && active}`}>
 						<DocumentDuplicateIcon className='h-8 w-10 ' />
 					</div>
 				</Link>
 
 				<Link to='/Portfolio/about'>
 					<div
-						className={`${styles} ${location.pathname === "/about" && active}`}
+						className={`${styles} ${location.pathname === "/Portfolio/about" && active}`}
 					>
 						<SearchIcon className='h-8 w-10' />
 					</div>
@@ -36,7 +37,7 @@ function Purenavbar() {
 				<Link to='/Portfolio/projects'>
 					<div
 						className={`${styles} ${
-							location.pathname === "/projects" && active
+							location.pathname === "/Portfolio/projects" && active
 						}`}
 					>
 						<CodeIcon className='h-8 w-10' />
@@ -46,7 +47,7 @@ function Purenavbar() {
 				<Link to='/Portfolio/techstack'>
 					<div
 						className={`${styles} ${
-							location.pathname === "/techstack" && active
+							location.pathname === "/Portfolio/techstack" && active
 						}`}
 					>
 						<PencilIcon className='h-8 w-10' />
@@ -56,7 +57,7 @@ function Purenavbar() {
 				<Link to='/Portfolio/contact'>
 					<div
 						className={`${styles} ${
-							location.pathname === "/contact" && active
+							location.pathname === "/Portfolio/contact" && active
 						}`}
 					>
 						<MailIcon className='h-8 w-10' />

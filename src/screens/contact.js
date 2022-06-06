@@ -24,9 +24,9 @@ function Contact() {
 				<p className='text-[#E1E4E8] ml-20'> website :</p>
 				<a
 					className='text-[#f9826c] ml-5 hover:border-b-2 hover:border-b-[#f9826c]'
-					href=''
+					href='https://arijit-101.github.io/Portfolio/'
 				>
-					arijitsaha.com
+					arijit-101.github.io/Portfolio/
 				</a>
 				<span className='text-[#E1E4E8] ml-4'>;</span>
 			</div>
