@@ -19,7 +19,7 @@ function Purenavbar() {
 	return (
 		<div className='h-[calc(100vh-30px-25px)] text-white w-full md:w-1/4 text-center items-center justify-between bg-[#161a1d] md:bg-[#24292e]  space-y-5 pt-5  relative'>
 			<div className='absolute top-2 text-center items-center justify-between'>
-				<Link to='/'>
+				<Link to='/Portfolio'>
 					<div className={`${styles} ${location.pathname === "/" && active}`}>
 						<DocumentDuplicateIcon className='h-8 w-10 ' />
 					</div>

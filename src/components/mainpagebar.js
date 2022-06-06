@@ -9,7 +9,7 @@ function Mainpagebar() {
 
 	return (
 		<div className='flex items-center border border-[#303941] font-sans curson-pointer text-[0.9rem]  bg-[#313c43] text-[#ececec] '>
-			<Link to='/'>
+			<Link to='/Portfolio'>
 				<div className={`${styles} ${location.pathname === "/" && active}`}>
 					<img src='/react_icon.svg' alt='home.jsx' height={18} width={18} />
 					<p className='truncate'>home.jsx</p>

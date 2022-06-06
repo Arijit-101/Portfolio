@@ -27,7 +27,7 @@ function Explorer() {
 				</div>
 
 				<div className={` ${style} ${portfolioOpen == false && notactive}`}>
-					<Link to='/'>
+					<Link to='/Portfolio'>
 						<div className='flex py-2 px-4'>
 							<img
 								className='pr-1'
