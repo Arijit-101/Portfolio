@@ -16,7 +16,7 @@ function Mainpagebar() {
 				</div>
 			</Link>
 
-			<Link to='/about'>
+			<Link to='/Portfolio/about'>
 				<div
 					className={`${styles} ${location.pathname === "/about" && active}`}
 				>
@@ -25,7 +25,7 @@ function Mainpagebar() {
 				</div>
 			</Link>
 
-			<Link to='/contact'>
+			<Link to='/Portfolio/contact'>
 				<div
 					className={`${styles} ${location.pathname === "/contact" && active}`}
 				>
@@ -34,7 +34,7 @@ function Mainpagebar() {
 				</div>
 			</Link>
 
-			<Link to='/projects'>
+			<Link to='/Portfolio/projects'>
 				<div
 					className={`${styles} ${location.pathname === "/projects" && active}`}
 				>
@@ -43,7 +43,7 @@ function Mainpagebar() {
 				</div>
 			</Link>
 
-			<Link to='/techstack'>
+			<Link to='/Portfolio/techstack'>
 				<div
 					className={`${styles} ${
 						location.pathname === "/techstack" && active

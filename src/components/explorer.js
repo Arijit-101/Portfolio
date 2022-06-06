@@ -40,7 +40,7 @@ function Explorer() {
 						</div>
 					</Link>
 
-					<Link to='/about'>
+					<Link to='/Portfolio/about'>
 						<div className='flex py-2 px-4'>
 							<img
 								className='pr-1'
@@ -55,7 +55,7 @@ function Explorer() {
 						</div>
 					</Link>
 
-					<Link to='/contact'>
+					<Link to='/Portfolio/contact'>
 						<div className='flex py-2 px-4'>
 							<img
 								className='pr-1'
@@ -70,7 +70,7 @@ function Explorer() {
 						</div>
 					</Link>
 
-					<Link to='/projects'>
+					<Link to='/Portfolio/projects'>
 						<div className='flex py-2 px-4'>
 							<img
 								className='pr-1'
@@ -85,7 +85,7 @@ function Explorer() {
 						</div>
 					</Link>
 
-					<Link to='/techstack'>
+					<Link to='/Portfolio/techstack'>
 						<div className='flex py-2 px-4'>
 							<img
 								className='pr-1'
